@@ -1,208 +1,855 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>CORPORATE EMAIL TEMPLATE</title>
-</head>
-<body>
-<style type="text/css" media="all">
-body {font-family:Arial, Helvetica, sans-serif; font-size:11px; margin: 0; padding: 0; }
-img { outline:none; border:none }
-a {outline:none; text-decoration:none; cursor:pointer; }
-p { margin:0; padding:0 }
-td.date {font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold }
-td.date .year{ font-size:25px; line-height:18px}
-.post-items td{ text-align:left}
-.post-item h3 {padding:0; margin:0; font-size:13px;}
-.post-item .post-desc { padding:12px 0  0 0; line-height:13px;font-family:Arial, Helvetica, sans-serif; font-size:11px;}
-.footer-inner {line-height:12px; font-size:10px }
-.footer-inner a { text-decoration:underline; }
-.footer-inner a:hover { text-decoration:none; }
-/*text color*/
-a {color:#656a6f;}
-a:hover {color:#35353e; }
-.post-item h3 {color:#000}
-td.date {color:#000;}
-.footer-inner,  .footer-inner a {color:#5f5f5f}
-.post-item .post-desc {color:#656a6f }
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="initial-scale=1.0"/>
+<meta name="format-detection" content="telephone=no"/>
+	<title>KATAUSTRIA - Page Template</title>
 
-/*Background color*/
-body { background:#eaeaea;}
-.mail-content-inner{background:#fff}
-.footer-inner { background:#d1d1d1 }
-frame, iframe{ display:none!important}
+<style type="text/css">
+
+@import "http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css";
+
+html,body {
+    background-color:#fff;
+    margin:0;
+    padding:0
+}
+
+html {
+    width:100%
+}
+
+body {
+    margin:0;
+    padding:0;
+    -webkit-text-size-adjust:none;
+    -ms-text-size-adjust:none
+}
+
+
+table {
+    border-spacing:0;
+    border-collapse:collapse
+}
+
+table td {
+    border-collapse:collapse
+}
+
+table tr {
+    border-collapse:collapse
+}
+
+img {
+    display:block!important
+}
+
+br,strong br,b br,em br,i br {
+    line-height:100%
+}
+
+
+a {
+    text-decoration:none
+}
+
+.button a {
+    font-size:14px;
+    font-family:'Lato',sans-serif;
+    color:#fff;
+    font-weight:300;
+    background:transparent
+}
+
+
+
+@media only screen and (max-width: 640px) {
+body {
+    width:auto!important
+}
+
+
+table[class="col1"] {
+    width:29%;
+}
+
+table[class="col2"] {
+    width:47%;
+    text-align:left
+}
+
+table[class="col3_one"] {
+    width:64%;
+    text-align:left;
+}
+
+table[class="col3"] {
+    width:100%;
+    text-align:center;
+
+}
+
+table[class="col-600"] {
+    width:450px
+}
+
+table[class="insider"] {
+    width:90%
+}
+
+img[class="images_style"] {
+    width:60%;
+    height:auto
+}
+
+.margin{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+body {
+    width:auto!important
+}
+
+table[class="col1"] {
+    width:100%;
+}
+
+table[class="col2"] {
+    width:100%;
+    text-align:left
+}
+
+table[class="col3"] {
+    width:100%;
+    text-align:center
+}
+
+table[class="col3_one"] {
+    width:80%;
+    text-align:center;
+    margin: 0 20px 0 0;
+}
+
+table[class="col-600"] {
+    width:290px
+}
+
+table[class="insider"] {
+    width:82%!important
+}
+
+img[class="images-style"] {
+    width:60%
+}
+
+
+.button { width: 40%; display: block; }
+a.read-more { text-align: center; display: block;}
+
+}
+
+
+/* OUTLOOK CLASS*/
+.ExternalClass {
+    background-color:#fff;
+    width:100%
+}
+
+.ExternalClass,.ExternalClass font,.ExternalClass td,.ExternalClass p,.ExternalClass span,.ExternalClass div {
+    line-height:100%
+}
+
+.ReadMsgBody {
+    width:100%;
+    background-color:#fff
+}
+
+
+/* YAHOO MAIL CLASS */
+.yshortcuts,.yshortcuts a,.yshortcuts a:link,.yshortcuts a:visited,.yshortcuts a:hover,.yshortcuts a span {
+    border-bottom:none!important
+}
+
+/* MAILCHIMP CLASS */
+.default-edit-image {
+    height:20px
+}
+
+
 </style>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="center"><table width="632" border="0" cellspacing="0" cellpadding="0" class="main">
-        <!--Header-->
-        <tr class="mail-header">
-          <td><!--top-->
-            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="top">
-              <tr>
-                <td width="196"><a href="#" target="_blank" title="Corporate Email Template"><img src="images/logo.gif" alt="Corporate Email Template"></a></td>
-                <td width="312"><img src="images/header-effect.gif"></td>
-                <td class="date" valign="bottom" align="right"><span class="year">09</span><br>
-                  December</td>
-                <td width="17"></td>
-              </tr>
-            </table>
-            <!--/top-->
-            <!--promo-->
-            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="promo">
-              <tr>
-                <td><a href="#" target="_blank" title="Why do we use it?"><img src="images/promo.jpg" alt="Why do we use it?"></a></td>
-              </tr>
-            </table>
-            <!--/promo-->
-          </td>
-        </tr>
-        <!--/Header-->
-        <!--Content-->
-        <tr class="mail-content">
-          <td  align="center" ><table width="600" border="0" cellspacing="0" cellpadding="0" class="mail-content-inner">
-              <tr>
-                <td>
-                  <!--Content title-->
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="content-title">
-                    <tr>
-                      <td><img src="images/title01.gif" alt="Latest News"></td>
-                    </tr>
-                  </table>
-                  <!--/Content title-->
-                  <!--post items-->
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="post-items">
-                    <tr>
-                      <td width="50"></td>
-                      <!--post-item-->
-                      <td valign="top" class="post-item"><h3>What is Lorem Ipsum?</h3>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                          <tr>
-                            <td valign="top"><a target="_blank"  href="#"><img src="images/post1.jpg" alt="What is Lorem Ipsum?"></a></td>
-                            <td valign="top"  class="post-desc"><a target="_blank"  href="#">Phasellus leo est, rhoncus eu, rhoncus et, ornare a, felis. Crased vitae nisi eget metus elementum egestas.Pha- sellus mattis.</a></td>
-                          </tr>
-                        </table></td>
-                      <!--post-item-->
-                      <td width="14"></td>
-                      <!--post-item-->
-                      <td valign="top" class="post-item"><h3>What is Lorem Ipsum?</h3>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                          <tr>
-                            <td valign="top"><a target="_blank"  href="#"><img src="images/post2.jpg" alt="What is Lorem Ipsum?"></a></td>
-                            <td valign="top"  class="post-desc"><a target="_blank"  href="#">Phasellus leo est, rhoncus eu, rhoncus et, ornare a, felis. Crased vitae nisi eget metus elementum egestas.Pha- sellus mattis.</a></td>
-                          </tr>
-                        </table></td>
-                      <!--post-item-->
-                      <td width="50"></td>
-                    </tr>
-                  </table>
-                  <!--/post-items-->
-                  <!--post-space-->
-                  <table border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                      <td height="30"></td>
-                    </tr>
-                  </table>
-                  <!--/post-space-->
-                  <!--post items-->
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="post-items">
-                    <tr>
-                      <td width="50"></td>
-                      <!--post-item-->
-                      <td valign="top" class="post-item"><h3>Where can I get some?</h3>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                          <tr>
-                            <td valign="top"><a target="_blank"  href="#"><img src="images/post3.jpg" alt="Where can I get some?"></a></td>
-                            <td valign="top"  class="post-desc"><a target="_blank"  href="#">Phasellus leo est, rhoncus eu, rhoncus et, ornare a, felis. Crased vitae nisi eget metus elementum egestas.Pha- sellus mattis.</a></td>
-                          </tr>
-                        </table></td>
-                      <!--/post-item-->
-                      <td width="14"></td>
-                      <!--post-item-->
-                      <td valign="top" class="post-item"><h3>Where does it come from?</h3>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                          <tr>
-                            <td valign="top"><a target="_blank"  href="#"><img src="images/post4.jpg" alt="Where does it come from?"></a></td>
-                            <td valign="top"  class="post-desc"><a target="_blank"  href="#">Phasellus leo est, rhoncus eu, rhoncus et, ornare a, felis. Crased vitae nisi eget metus elementum egestas.Pha- sellus mattis.</a></td>
-                          </tr>
-                        </table></td>
-                      <!--post-item-->
-                      <td width="50"></td>
-                    </tr>
-                  </table>
-                  <!--post-items-->
-                  <!--post-space-->
-                  <table border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                      <td height="30"></td>
-                    </tr>
-                  </table>
-                  <!--/post-space-->
-                   <!--Content title-->
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="content-title">
-                    <tr>
-                      <td><img src="images/title02.gif" alt="New Services"></td>
-                    </tr>
-                  </table>
-                  <!--/Content title-->
-                  <!--post items-->
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="post-items">
-                    <tr>
-                      <td width="50"></td>
-                      <!--post-item-->
-                      <td valign="top" class="post-item"><h3>Where can I get? </h3>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                          <tr>
-                            <td valign="top"><a target="_blank"  href="#"><img src="images/post5.jpg" alt="Where can I get?"></a></td>
-                            <td valign="top"  class="post-desc"><a target="_blank"  href="#"> Phasellus leo est, rhoncus eu, rhoncus et, ornare a, felis. Cra vitae nisi eget metus elementum egestas. Phasellus mattis vestibulum sapien. <br>
-                              <br>
-                              Vestibulum ac elit in purus bibendum luctus. Vivamus sus- cipit laoreet erat. Vivamus vulputate sodales lacus.<br>
-                              <br>
-                              Etiam justo leo, malesuada non, scelerisque ac, tincidunt vel, nulla. In orci risus, iaculis nec. Crased vitae nisi eget metus elementum egestas. </a></td>
-                          </tr>
-                        </table></td>
-                      <!--post-item-->
-                      <td width="50"></td>
-                    </tr>
-                  </table>
-                  <!--post-items-->
-				 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A88e401cdd62f466005a0c730f59c0711f39dba44f66a1f2aa880e19f0165b284&amp;width=600&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-                  <!--post-space-->
-                  <table border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                      <td height="30"></td>
-                    </tr>
-                  </table>
-                  <!--/post-space-->
-                </td>
-              </tr>
-            </table></td>
-        </tr>
-        <!--/Content-->
-		
-        <!--Footer-->
-        <tr class="mail-footer">
-          <td align="center"><table class="footer" width="600" border="0" cellspacing="0" cellpadding="0">
-              <tr>
-                <td><img src="images/footer-top.gif"></td>
-              </tr>
-              <tr>
-                <td align="right" class="footer-inner"><table border="0" cellspacing="0" cellpadding="8">
-                    <tr>
-                      <td align="right"> Click Here To <a target="_blank"  href="#" title="Unsubscribe">Unsubscribe</a><br>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</td>
-                    </tr>
-                  </table></td>
-              </tr>
-               <tr>
-                <td><img src="images/footer-bottom.gif"></td>
-              </tr>
-            </table></td>
-        </tr>
-        <!--/Footer-->
-      </table></td>
-  </tr>
-</table>
+
+
+<meta name="robots" content="noindex,follow" />
+</head>
+
+<body>
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+<!-- START HEADER/BANNER -->
+
+		<tr>
+			<td align="center">
+				<table class="col-600" width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+					<tr>
+						<td align="center"  valign="top" background="images/header-background.jpg" bgcolor="#66809b" style="background-size:cover; background-position:top;height="400"">
+							<table class="col-600" width="600" height="400" border="0" align="center" cellpadding="0" cellspacing="0">
+
+								<tr>
+									<td height="40"></td>
+								</tr>
+
+
+								<tr>
+									<td align="center" style="line-height: 0px;">
+										<img style="display:block; line-height:0px; font-size:0px; border:0px;" src="images/logo.png" width="109" height="103" alt="logo" />
+									</td>
+								</tr>
+
+
+
+								<tr>
+									<td align="center" style="font-family: 'Raleway', sans-serif; font-size:37px; color:#ffffff; line-height:24px; font-weight: bold; letter-spacing: 7px;">
+										EMAIL <span style="font-family: 'Raleway', sans-serif; font-size:37px; color:#ffffff; line-height:39px; font-weight: 300; letter-spacing: 7px;">TEMPLATE</span>
+									</td>
+								</tr>
+
+
+
+
+
+								<tr>
+									<td align="center" style="font-family: 'Lato', sans-serif; font-size:15px; color:#ffffff; line-height:24px; font-weight: 300;">
+										A creative email template for your email campaigns, promotions <br/>and products across different email platforms.
+									</td>
+								</tr>
+
+
+								<tr>
+									<td height="50"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+
+<!-- END HEADER/BANNER -->
+
+
+<!-- START 3 BOX SHOWCASE -->
+
+		<tr>
+			<td align="center">
+				<table class="col-600" width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-left:20px; margin-right:20px; border-left: 1px solid #dbd9d9; border-right: 1px solid #dbd9d9;">
+					<tr>
+						<td height="35"></td>
+					</tr>
+
+					<tr>
+						<td align="center" style="font-family: 'Raleway', sans-serif; font-size:22px; font-weight: bold; color:#2a3a4b;">A creative way to showcase your content</td>
+					</tr>
+
+					<tr>
+						<td height="10"></td>
+					</tr>
+
+
+					<tr>
+						<td align="center" style="font-family: 'Lato', sans-serif; font-size:14px; color:#757575; line-height:24px; font-weight: 300;">
+							Prepare some  flat icons of your choice. You can place your content below.<br/>
+							Make sure it's awesome.
+						</td>
+					</tr>
+
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td align="center">
+				<table class="col-600" width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="border-left: 1px solid #dbd9d9; border-right: 1px solid #dbd9d9; ">
+					<tr>
+						<td height="10"></td>
+					</tr>
+					<tr>
+						<td>
+
+
+							<table class="col3"  width="183" border="0" align="left" cellpadding="0" cellspacing="0">
+								<tr>
+									<td height="30"></td>
+								</tr>
+								<tr>
+									<td align="center">
+										<table class="insider" width="133" border="0" align="center" cellpadding="0" cellspacing="0">
+
+											<tr align="center" style="line-height:0px;">
+												<td>
+													<img style="display:block; line-height:0px; font-size:0px; border:0px;" src="images/icon-about.png" width="69" height="78" alt="icon" />
+												</td>
+											</tr>
+
+
+											<tr>
+												<td height="15"></td>
+											</tr>
+
+
+											<tr align="center">
+												<td style="font-family: 'Raleway', Arial, sans-serif; font-size:20px; color:#2b3c4d; line-height:24px; font-weight: bold;">About Us</td>
+											</tr>
+
+
+											<tr>
+												<td height="10"></td>
+											</tr>
+
+
+											<tr align="center">
+												<td style="font-family: 'Lato', sans-serif; font-size:14px; color:#757575; line-height:24px; font-weight: 300;">Place some cool text here.</td>
+											</tr>
+
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td height="30" ></td>
+								</tr>
+							</table>
+
+
+
+
+
+							<table width="1" height="20" border="0" cellpadding="0" cellspacing="0" align="left" >
+								<tr>
+									<td height="20" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+										<p style="padding-left: 24px;">&nbsp;</p>
+									</td>
+								</tr>
+							</table>
+
+
+
+							<table class="col3"  width="183" border="0" align="left" cellpadding="0" cellspacing="0">
+								<tr>
+									<td height="30"></td>
+								</tr>
+								<tr>
+									<td align="center">
+										<table class="insider" width="133" border="0" align="center" cellpadding="0" cellspacing="0">
+
+											<tr align="center" style="line-height:0px;">
+												<td>
+													<img style="display:block; line-height:0px; font-size:0px; border:0px;" src="images/icon-team.png" width="69" height="78" alt="icon" />
+												</td>
+											</tr>
+
+
+											<tr>
+												<td height="15"></td>
+											</tr>
+
+
+											<tr align="center">
+												<td style="font-family: 'Raleway', sans-serif; font-size:20px; color:#2b3c4d; line-height:24px; font-weight: bold;">Our Team</td>
+											</tr>
+
+
+											<tr>
+												<td height="10"></td>
+											</tr>
+
+
+											<tr align="center">
+													<td style="font-family: 'Lato', sans-serif; font-size:14px; color:#757575; line-height:24px; font-weight: 300;">Place some cool text here.</td>
+											</tr>
+
+
+
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td height="30"></td>
+								</tr>
+							</table>
+
+
+
+							<table width="1" height="20" border="0" cellpadding="0" cellspacing="0" align="left">
+								<tr>
+									<td height="20" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+										<p style="padding-left: 24px;">&nbsp;</p>
+									</td>
+								</tr>
+							</table>
+
+
+
+							<table class="col3" width="183" border="0" align="right" cellpadding="0" cellspacing="0">
+								<tr>
+									<td height="30"></td>
+								</tr>
+								<tr>
+									<td align="center">
+										<table class="insider" width="133" border="0" align="center" cellpadding="0" cellspacing="0">
+
+											<tr align="center" style="line-height:0px;">
+												<td>
+													<img style="display:block; line-height:0px; font-size:0px; border:0px;" src="images/icon-portfolio.png" width="69" height="78" alt="icon" />
+												</td>
+											</tr>
+
+
+											<tr>
+												<td height="15"></td>
+											</tr>
+
+
+											<tr align="center">
+												<td style="font-family: 'Raleway',  sans-serif; font-size:20px; color:#2b3c4d; line-height:24px; font-weight: bold;">Our Portfolio</td>
+											</tr>
+
+
+											<tr>
+												<td height="10"></td>
+											</tr>
+
+
+											<tr align="center">
+												<td style="font-family: 'Lato', sans-serif; font-size:14px; color:#757575; line-height:24px; font-weight: 300;">Place some cool text here.</td>
+											</tr>
+
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td height="30"></td>
+								</tr>
+							</table>
+
+
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+			<tr>
+					<td height="5"></td>
+		</tr>
+
+
+<!-- END 3 BOX SHOWCASE -->
+
+
+<!-- START AWESOME TITLE -->
+
+		<tr>
+			<td align="center">
+				<table align="center" class="col-600" width="600"  border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="center" bgcolor="#2a3b4c">
+							<table class="col-600" width="600" align="center" width="600" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td height="33"></td>
+								</tr>
+								<tr>
+									<td>
+
+
+										<table class="col1" width="183" border="0" align="left" cellpadding="0" cellspacing="0">
+
+											<tr>
+											<td height="18"></td>
+											</tr>
+
+											<tr>
+												<td align="center">
+													<img style="display:block; line-height:0px; font-size:0px; border:0px;" class="images_style" src="images/icon-title.png" alt="img" width="156" height="136" />
+												</td>
+
+
+
+											</tr>
+										</table>
+
+
+
+										<table class="col3_one" width="380"  border="0" align="right" cellpadding="0" cellspacing="0">
+
+											<tr align="left" valign="top">
+												<td style="font-family: 'Raleway', sans-serif; font-size:20px; color:#f1c40f; line-height:30px; font-weight: bold;">This title is definitely awesome! </td>
+											</tr>
+
+
+											<tr>
+												<td height="5"></td>
+											</tr>
+
+
+											<tr align="left" valign="top">
+												<td style="font-family: 'Lato', sans-serif; font-size:14px; color:#fff; line-height:24px; font-weight: 300;">
+													The use of flat colors in web design is more than a recent trend, it is a style designers have used for years to create impactful visuals. When you hear "flat", it doesn't mean boring it just means minimalist.
+												</td>
+											</tr>
+
+											<tr>
+												<td height="10"></td>
+											</tr>
+
+											<tr align="left" valign="top">
+												<td>
+													<table class="button" style="border: 2px solid #fff;" bgcolor="#2b3c4d" width="30%" border="0" cellpadding="0" cellspacing="0">
+														<tr>
+															<td width="10"></td>
+															<td height="30" align="center" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#ffffff;">
+																<a href="#" style="color:#ffffff;">Read more</a>
+															</td>
+															<td width="10"></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td height="33"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+
+<!-- END AWESOME TITLE -->
+
+
+<!-- START WHAT WE DO -->
+
+		<tr>
+			<td align="center">
+				<table class="col-600" width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-left:20px; margin-right:20px;">
+
+
+
+		<tr>
+			<td align="center">
+				<table class="col-600" width="600" border="0" align="center" cellpadding="0" cellspacing="0" style=" border-left: 1px solid #dbd9d9; border-right: 1px solid #dbd9d9;">
+					<tr>
+						<td height="50"></td>
+					</tr>
+					<tr>
+						<td align="right">
+
+
+							<table class="col2" width="287" border="0" align="right" cellpadding="0" cellspacing="0">
+								<tr>
+									<td align="center" style="line-height:0px;">
+										<img style="display:block; line-height:0px; font-size:0px; border:0px;" class="images_style" src="images/icon-responsive.png" width="169" height="138" />
+									</td>
+								</tr>
+							</table>
+
+
+
+
+
+
+							<table width="287" border="0" align="left" cellpadding="0" cellspacing="0" class="col2" style="">
+								<tr>
+									<td align="center">
+										<table class="insider" width="237" border="0" align="center" cellpadding="0" cellspacing="0">
+
+
+
+											<tr align="left">
+												<td style="font-family: 'Raleway', sans-serif; font-size:23px; color:#2a3b4c; line-height:30px; font-weight: bold;">What we do?</td>
+											</tr>
+
+											<tr>
+												<td height="5"></td>
+											</tr>
+
+
+											<tr>
+												<td style="font-family: 'Lato', sans-serif; font-size:14px; color:#7f8c8d; line-height:24px; font-weight: 300;">
+													We create responsive websites with modern designs and features for small businesses and organizations that are professionally developed and SEO optimized.
+												</td>
+											</tr>
+
+
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+
+<!-- END WHAT WE DO -->
+
+
+
+<!-- START READY FOR NEW PROJECT -->
+
+		<tr>
+			<td align="center">
+				<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style=" border-left: 1px solid #dbd9d9; border-right: 1px solid #dbd9d9;">
+					<tr>
+						<td height="50"></td>
+					</tr>
+					<tr>
+
+
+						<td align="center" bgcolor="#34495e">
+							<table class="col-600" width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+								<tr>
+									<td height="35"></td>
+								</tr>
+
+
+								<tr>
+									<td align="center" style="font-family: 'Raleway', sans-serif; font-size:20px; color:#f1c40f; line-height:24px; font-weight: bold;">Ready for new project?</td>
+								</tr>
+
+
+								<tr>
+									<td height="20"></td>
+								</tr>
+
+
+								<tr>
+									<td align="center" style="font-family: 'Lato', sans-serif; font-size:14px; color:#fff; line-height: 1px; font-weight: 300;">
+										Check out our price below.
+									</td>
+								</tr>
+
+
+								<tr>
+									<td height="40"></td>
+								</tr>
+
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+
+<!-- END READY FOR NEW PROJECT -->
+
+
+<!-- START PRICING TABLE -->
+
+		<tr>
+			<td align="center">
+				<table width="600" class="col-600" align="center" border="0" cellspacing="0" cellpadding="0" style=" border-left: 1px solid #dbd9d9; border-right: 1px solid #dbd9d9;">
+					<tr>
+						<td height="50"></td>
+					</tr>
+					<tr>
+						<td>
+
+
+							<table style="border:1px solid #e2e2e2;" class="col2" width="287" border="0" align="left" cellpadding="0" cellspacing="0">
+
+
+								<tr>
+									<td height="40" align="center" bgcolor="#2b3c4d" style="font-family: 'Raleway', sans-serif; font-size:18px; color:#f1c40f; line-height:30px; font-weight: bold;">Small Business Website</td>
+								</tr>
+
+
+								<tr>
+									<td align="center">
+										<table class="insider" width="237" border="0" align="center" cellpadding="0" cellspacing="0">
+											<tr>
+												<td height="20"></td>
+											</tr>
+
+											<tr align="center" style="line-height:0px;">
+												<td style="font-family: 'Lato', sans-serif; font-size:48px; color:#2b3c4d; font-weight: bold; line-height: 44px;">$150</td>
+											</tr>
+
+
+											<tr>
+												<td height="15"></td>
+											</tr>
+
+
+											<tr>
+												<td height="15"></td>
+											</tr>
+
+
+
+											<tr>
+												<td align="center">
+													<table width="100" border="0" align="center" cellpadding="0" cellspacing="0"   style="border: 2px solid #2b3c4d;">
+														<tr>
+															<td width="10"></td>
+															<td height="30" align="center" style="font-family: 'Lato', sans-serif; font-size:14px; font-weight: 300; color:#2b3c4d;">
+																<a href="#" style="color: #2b3c4d;">Learn More</a>
+															</td>
+															<td width="10"></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+
+
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td height="30"></td>
+								</tr>
+							</table>
+
+
+
+
+
+							<table width="1" height="20" border="0" cellpadding="0" cellspacing="0" align="left">
+								<tr>
+									<td height="20" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+										<p style="padding-left: 24px;">&nbsp;</p>
+									</td>
+								</tr>
+							</table>
+
+
+							<table style="border:1px solid #e2e2e2;" class="col2" width="287" border="0" align="right" cellpadding="0" cellspacing="0">
+
+
+								<tr>
+									<td height="40" align="center" bgcolor="#2b3c4d" style="font-family: 'Raleway', sans-serif; font-size:18px; color:#f1c40f; line-height:30px; font-weight: bold;">E-commerce Website</td>
+								</tr>
+
+
+								<tr>
+									<td align="center">
+										<table class="insider" width="237" border="0" align="center" cellpadding="0" cellspacing="0">
+											<tr>
+												<td height="20"></td>
+											</tr>
+
+											<tr align="center" style="line-height:0px;">
+												<td style="font-family: 'Lato', sans-serif; font-size:48px; color:#2b3c4d; font-weight: bold; line-height: 44px;">$289</td>
+											</tr>
+
+
+											<tr>
+												<td height="30"></td>
+											</tr>
+
+
+
+											<tr align="center">
+												<td>
+													<table width="100" border="0" align="center" cellpadding="0" cellspacing="0"   style=" border: 2px solid #2b3c4d;">
+														<tr>
+															<td width="10"></td>
+															<td height="30" align="center" style="font-family: 'Lato', sans-serif; font-size:14px; font-weight: 300; color:#2b3c4d;">
+																<a href="#" style="color: #2b3c4d;">Learn More</a>
+															</td>
+															<td width="10"></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+
+
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td height="20" ></td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+
+<!-- END PRICING TABLE -->
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A88e401cdd62f466005a0c730f59c0711f39dba44f66a1f2aa880e19f0165b284&amp;width=600&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+
+<!-- START FOOTER -->
+
+		<tr>
+			<td align="center">
+				<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style=" border-left: 1px solid #dbd9d9; border-right: 1px solid #dbd9d9;">
+					<tr>
+						<td height="50"></td>
+					</tr>
+					<tr>
+						<td align="center" bgcolor="#34495e" background="images/footer.jpg" height="185">
+							<table class="col-600" width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+								<tr>
+									<td height="25"></td>
+								</tr>
+
+									<tr>
+									<td align="center" style="font-family: 'Raleway',  sans-serif; font-size:26px; font-weight: 500; color:#f1c40f;">Follow us for some cool stuffs</td>
+									</tr>
+
+
+								<tr>
+									<td height="25"></td>
+								</tr>
+
+
+
+								<table align="center" width="35%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td align="center"  width="30%"  style="vertical-align: top;">
+											<a href="https://www.facebook.com/designmodo" target="_blank"> <img src="images/icon-fb.png"> </a>
+									</td>
+
+									<td align="center" class="margin" width="30%" style="vertical-align: top;">
+										 <a href="https://twitter.com/designmodo" target="_blank"> <img src="images/icon-twitter.png"> </a>
+									</td>
+
+									<td align="center" width="30%" style="vertical-align: top;">
+											<a href="https://plus.google.com/+Designmodo/posts" target="_blank"> <img src="images/icon-googleplus.png"> </a>
+									</td>
+								</tr>
+								</table>
+
+
+
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+<!-- END FOOTER -->
+
+						</td>
+					</tr>
+				</table>
 </body>
 </html>
